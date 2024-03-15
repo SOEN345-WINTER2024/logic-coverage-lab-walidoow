@@ -61,7 +61,7 @@ class CheckItTest {
     @Test
     void testRACCCoverageCheckIt1() {
         CheckIt.checkIt(true, false, true);
-        Assertions.assertEquals("P isn't true", outputStream.toString().trim());
+        Assertions.assertEquals("P is true", outputStream.toString().trim());
     }
 
     @Test
